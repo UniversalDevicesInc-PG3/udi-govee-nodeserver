@@ -1,8 +1,8 @@
-# Govee Polyglot V2 Node Server
+# Govee Polyglot V3 Node Server
 
 ![Build Status](https://travis-ci.org/therealmysteryman/udi-govee-nodeserver.svg?branch=master)
 
-This Poly provides an interface between Govee and Polyglot v2 server. Provide basic control On/Off and Brightness of Govee WIFI Led Strip. Have been testing with H6104
+This Poly provides an interface between Govee and Polyglot v3 server. Provide basic control On/Off and Brightness of Govee WIFI Led Strip. Have been testing with H6104
 
 ## Installation
 

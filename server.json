@@ -1,21 +1,25 @@
 {
     "name": "Govee",
-    "docs": "https://github.com/therealmysteryman/udi-milight-polyglot/blob/master/README.md",
+    "docs": "https://github.com/UniversalDevicesInc-PG3/udi-milight-polyglot/blob/master/README.md",
     "type": "python3",
     "executable": "govee_poly.py",
     "install": "install.sh",
     "shortPoll": "90",
     "longPoll": "600",
+	"logLevel": "INFO",
     "description": "Basic control(On/Off) of Govee Light Strip on ISY994.",
-    "notice": "https://github.com/therealmysteryman/udi-govee-nodeserver/blob/master/LICENSE",
+    "notice": "https://github.com/UniversalDevicesInc-PG3/udi-govee-nodeserver/blob/master/LICENSE",
+	"customParams": {
+		"api_key": ""
+	},
     "credits": [
         {
             "title": "govee_nodeserver: A Polyglot v2 interface to Govee",
             "author": "AutomationGeek",
-            "version": "2.0.5",
-            "date": "February 2, 2021",
-            "source": "https://github.com/therealmysteryman/udi-govee-nodeserver",
-            "license": "https://github.com/therealmysteryman/udi-govee-nodeserver/blob/master/README.md"
+            "version": "3.0.0",
+            "date": "September 28, 2021",
+            "source": "https://github.com/UniversalDevicesInc-PG3/udi-govee-nodeserver",
+            "license": "https://github.com/UniversalDevicesInc-PG3/udi-govee-nodeserver/blob/master/README.md"
         },
 	{
             "title": "udi-poly-template-python: A Polyglot v2 Poly template",
@@ -33,5 +37,14 @@
             "source": "https://github.com/LaggAt/python-govee-api",
             "license": "https://github.com/dr1rrb/python-govee-api/blob/main/LICENSE"
         }
-    ]
+    ],
+	"store": {
+		"developer": "bpaauwe@bobsplace.com",
+		"purchaseOptions": [
+			{
+				"isPerpetual": true,
+				"price": 0
+			}
+		]
+	}
 }
